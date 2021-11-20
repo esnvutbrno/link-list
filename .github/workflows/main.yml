@@ -1,6 +1,9 @@
 name: Build Vue and publish on GH
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build_vue:
